@@ -3,6 +3,17 @@
     <head>
         <meta charset="UTF-8" />
         <title>Document</title>
+        <!-- <script src="./source/hello.js"></script>
+        <script src="./source/world.js"></script> -->
     </head>
-    <body></body>
+    <body>
+        <h1>Hello, WebPack</h1>
+        <div id="root"></div>
+        <script type="module">
+            import Hello_word from "./source/hello.js";
+            import World_word from "./source/world.js";
+            document.getElementById("root").innerHTML =
+                Hello_word + " " + World_word;
+        </script>
+    </body>
 </html>
