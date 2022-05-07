@@ -1,4 +1,1 @@
-(() => {
-    "use strict";
-    document.getElementById("root").innerHTML = "Hello world";
-})();
+(()=>{"use strict";document.getElementById("root").innerHTML="Hello world"})();
